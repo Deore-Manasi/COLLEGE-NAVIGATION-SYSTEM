@@ -1,0 +1,96 @@
+.container {
+    background: url("img.jpg") center center/cover no-repeat local;
+}
+
+.box {
+    margin-top: 40px;
+    height: 500px;
+    width: 97%;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    -webkit-text-fill-color: #ffffff;
+}
+
+.title {
+    height: 80px;
+    width: 900px;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 1);
+    
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -webkit-text-fill-color: #ffffff;
+}
+
+.t1 {
+    height: 80px;
+    width: 600px;
+    text-align: center;
+        background-color: #565757;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    text-shadow: #ffd453;
+    -webkit-text-fill-color:rgb(255, 255, 255);
+}   
+
+.img1,
+.img2 {
+    padding: 20px;
+}
+
+.marquee {
+    font-weight: 700;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.box1,
+.box2,
+.box3 {
+    height: 550px;
+    width: 450px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #565757;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.room-select {
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #565757;
+    color: #ffffff;
+
+    
+    
+}
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-btn,
+.edit-btn {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #565757;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.imp {
+    margin-left: 10px;
+}
